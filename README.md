@@ -4,6 +4,8 @@
 Projekt **Iris Classifier** demonstruje integrację modelu **uczenia maszynowego (Random Forest)** stworzonego w Pythonie z prostym interfejsem webowym w **HTML + JavaScript**.  
 Celem aplikacji jest klasyfikacja gatunków irysów (*Setosa*, *Versicolor*, *Virginica*) na podstawie czterech cech: długości i szerokości działki kielicha (sepal) oraz płatka (petal).
 
+![Screenshot of Iris Classifier](screenshot.png)
+
 ---
 
 ## ⚙️ Struktura projektu
