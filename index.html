@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Iris Classifier</title>
+    </head>
+    <body>
+        <h1>Iris Classifier</h1>
+        <label>Sepal Length: <input id="sepal_length" type="number" step="0.1"/></label><br/>
+        <label>Sepal Width: <input id="sepal_width" type="number" step="0.1"/></label><br/>
+        <label>Petal Length: <input id="petal_length" type="number" step="0.1"/></label><br/>
+        <label>Petal Width: <input id="petal_width" type="number" step="0.1"/></label><br/><br/>
+        <button onclick="predict()">Predict</button>
+        <h2 id="result"></h2>
+        <script src="iris_model.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
